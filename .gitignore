@@ -1,0 +1,48 @@
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cache
+*.log
+
+# ---- VIRTUAL ENVIRONMENT ----
+venv/
+env/
+
+
+# ---- OS GENERATED ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / EDITOR ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- ENV / SECRETS ----
+.env
+.env.local
+*.env
+
+# ---- VECTOR STORE (Chroma DB / FAISS) ----
+chroma_store/
+faiss_store/
+*.pkl
+*.index
+
+# ---- STREAMLIT ----
+.streamlit/config.toml
+
+# ---- DATA FILES ----
+data/*.pdf
+data/*.txt
+data/*.csv
+data/*.json
+data/*.xlsx
+data/*.docx
+
+# ---- BUILD / OUTPUT ----
+*.db
+*.sqlite
